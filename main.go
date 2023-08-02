@@ -50,7 +50,7 @@ func home(c *gin.Context) {
 
 func status(c *gin.Context) {
 	c.JSON(200, gin.H{
-		"message": "pong",
+		"message": "PONG",
 	})
 }
 
